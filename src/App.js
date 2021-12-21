@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="md:max-w-2xl mx-auto px-5">
       <select
-        className="w-full h-10 my-3 px-3 bg-white dark:bg-black bg-opacity-30 dark:bg-opacity-30 backdrop-filter backdrop-saturate-150 backdrop-blur-lg rounded-md"
+        className="w-full h-10 my-3 px-3 bg-white  bg-opacity-30  backdrop-filter backdrop-saturate-150 backdrop-blur-lg rounded-md"
         onChange={handleChange}
       >
         {breeds.map((items) => {
@@ -55,7 +55,7 @@ function App() {
                 src={items.url}
                 alt={breeds.name}
               />
-              <div className="absolute bottom-0 rounded-b-lg text-white p-6 space-y-4 bg-white dark:bg-black bg-opacity-30 dark:bg-opacity-30 backdrop-filter backdrop-saturate-150 backdrop-blur-lg">
+              <div className="absolute bottom-0 rounded-b-lg text-white p-6 space-y-4 bg-white  bg-opacity-30  backdrop-filter backdrop-saturate-150 backdrop-blur-lg">
                 <h1 className="text-5xl font-bold font-mono">{breeds.name}</h1>
                 <p className="font-mono">breeds id : {breeds.id}</p>
                 <p className="font-mono">{breeds.description}</p>
